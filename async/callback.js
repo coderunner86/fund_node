@@ -1,6 +1,6 @@
 function soyAsincrona(micallback) {
     //console.log('Hola, soy una funcion asíncrona');
-    const timeout = 1000
+    const timeout = 3000
     setTimeout(() => {
         console.log('Hola, ahora estoy en modo asíncrono')
         micallback();
